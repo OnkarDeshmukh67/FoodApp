@@ -1,0 +1,28 @@
+@keyframes slideIn {
+  0%{ 
+    transform: translateX(100vw);
+    display: none;
+  }
+  100%{
+    transform: translateX(0);
+    display: flex;
+  }
+}
+
+@keyframes slideOut {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(100vw);
+    display: none;
+  }
+}
+
+.slideIn{
+  animation: slideIn 500ms;
+}
+
+.slideOut{
+  animation: slideOut 500ms forwards;
+}
