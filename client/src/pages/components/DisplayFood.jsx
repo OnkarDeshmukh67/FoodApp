@@ -8,7 +8,7 @@ const Displayrecipe = () => {
 
       </span>
 
-      <span className='flex justify-around items-center w-full h-8 mt-2'>
+      <span className='flex justify-around items-center w-full h-8 mt-2 chakra-petch-light'>
         <button className='w-auto h-7 rounded-lg bg-slate-500 pr-1 pl-1'>optiona</button>
         <button className='w-auto h-7 rounded-lg bg-slate-500 pr-1 pl-1'>optionb</button>
         <button className='w-auto h-7 rounded-lg bg-slate-500 pr-1 pl-1'>optionc</button>
