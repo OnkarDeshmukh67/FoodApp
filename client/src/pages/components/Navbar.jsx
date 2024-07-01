@@ -7,7 +7,7 @@ const Navbar = () => {
       
       <div className='h-full w-auto text-wrap flex'>
         <a className='chakra-petch-light m-2 text-sm' href="#">Home</a>
-        <a className='chakra-petch-light m-2 text-sm' href="#">Find_a_Dish</a>
+        <a className='chakra-petch-light m-2 text-sm' href="#">Find</a>
         <a className='chakra-petch-light m-2 text-sm' href="#">About</a>
       </div>
 
