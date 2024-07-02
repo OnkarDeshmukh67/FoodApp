@@ -5,7 +5,7 @@ import DisplayFood from './components/DisplayFood'
 const Homepage = () => {
   return (
     <>
-      <div className='w-screen min-h-screen fixed'> <img src="../../public/anime_chef.jpeg" alt="" /> </div>
+      <div className='w-screen min-h-screen fixed'> <img src="/anime_chef.jpeg" alt="" /> </div>
       <div className='homepage_wrapper h-screen w-screen relative'>
 
         <Navbar />
