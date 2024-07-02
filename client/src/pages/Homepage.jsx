@@ -16,7 +16,7 @@ const Homepage = () => {
         </section>
 
         <section className='w-screen h-auto mt-16 flex flex-col chakra-petch-light text-center justify-center items-center'>
-          <p className='w-auto h-auto text-md'> Click on the button below to discover the recepies of endless delicacies... </p>
+          <p className='w-48 h-auto text-lg'> Discover the recepies of endless delicacies... </p>
           <button className='h-16 w-24 rounded-xl chakra-petch-bold text-[#242424] bg-white'>Let's Dig In</button>
         </section>
 

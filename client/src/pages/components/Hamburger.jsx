@@ -16,7 +16,7 @@ const Hamburger = () => {
         <span className={`${isHamburger ? `hidden` : ``} border w-full`}></span>
         <span className={`duration-700 ${isHamburger ? `-translate-y-2 -rotate-45` : `` } border w-full`}></span>
       </menu>
-      <section className={`w-screen h-screen chakra-petch-light bg-gray-800 ${isHamburger ? `slideIn fixed` : `slideOut duration-500`}`}>
+      <section className={`w-screen h-screen backdrop-blur-sm chakra-petch-light ${isHamburger ? `slideIn fixed` : `slideOut duration-500`}`}>
         This is the Hamburger Area
       </section>
     </>
