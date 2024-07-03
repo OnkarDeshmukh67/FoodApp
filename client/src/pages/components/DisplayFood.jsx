@@ -9,7 +9,7 @@ const Displayrecipe = () => {
     <div className='h-auto w-60 flex flex-col chakra-petch-light'>
       <p className='w-60 h-8 text-center text-xl'>Find Delicacies NearBy...</p>
 
-      <span className='w-60 h-60 overflow-hidden rounded-md flex flex-wrap backdrop-blur-xl'>
+      <span className='w-60 h-60 overflow-hidden rounded-md flex flex-wrap bg-white/20'>
         
         {reps.map(()=>{
           return <img className='w-16 h-16 rounded-md m-2' src="/healthy_food/food.jpg" alt="" />

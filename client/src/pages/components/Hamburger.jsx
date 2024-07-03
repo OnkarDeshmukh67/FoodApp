@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './SlideIn.css'
+import './SlideAnimation.css'
 
 const Hamburger = () => {
 
