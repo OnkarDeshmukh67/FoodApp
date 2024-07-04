@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import DisplayFood from './components/DisplayFood'
+import {Link} from 'react-router-dom'
 
 const Homepage = () => {
   return (
@@ -17,7 +18,7 @@ const Homepage = () => {
 
         <section className='w-screen h-auto mt-16 flex flex-col chakra-petch-light text-center justify-center items-center'>
           <p className='w-48 h-auto text-lg'> Discover the recepies of endless delicacies... </p>
-          <button className='h-16 w-24 rounded-xl chakra-petch-bold text-[#242424] bg-white'>Let's Dig In</button>
+          <Link to = {'/postFood'} className='h-16 w-24 rounded-xl chakra-petch-bold text-[#242424] bg-white flex justify-center items-center'>Let's Dig In</Link>
         </section>
 
       </div>

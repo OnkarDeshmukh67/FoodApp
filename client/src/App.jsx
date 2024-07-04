@@ -9,12 +9,12 @@ function App() {
 
   return (
     <>
-      {/* <div className="w-screen h-screen flex flex-col justify-center items-center">
+      <div className="w-screen h-screen flex flex-col justify-center items-center">
         {isAuthenticated ? <button className="w-24 h-12 border rounded-2xl" onClick={e => logout()}>logout</button> : <button className="w-24 h-12 border rounded-2xl" onClick={e => {loginWithRedirect()}}>login</button>}
-        {isAuthenticated?<p>{user.name}</p> : <p>nothing</p>} 
-      </div> */}
+        {isAuthenticated? <Homepage /> : <p>nothing</p>} 
+      </div>
       {/* <Homepage /> */}
-      <PostingPage />
+      {/* <PostingPage /> */}
     </>
   )
 }

@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 
+import Navbar from './components/Navbar'
+
 const PostingPage = () => {
 
   const [foodData , setFoodData] = useState({
@@ -42,6 +44,9 @@ const PostingPage = () => {
 
   return (
     <div className='postingpage_wrapper w-screen h-screen flex flex-col items-center'>
+
+      <Navbar />
+
       <header className='chakra-petch-bold text-xl w-full h-12 text-center m-2'>Post Your Delicacy</header>
 
       <form className='w-72 h-3/5 mt-4 flex flex-col text-center justify-around chakra-petch-bold'>
