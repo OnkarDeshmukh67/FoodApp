@@ -11,8 +11,8 @@ const Displayrecipe = () => {
 
       <span className='w-60 h-60 overflow-hidden rounded-md flex flex-wrap bg-white/20'>
         
-        {reps.map(()=>{
-          return <img className='w-16 h-16 rounded-md m-2' src="/healthy_food/food.jpg" alt="" />
+        {reps.map((k)=>{
+          return <img className='w-16 h-16 rounded-md m-2' src="/healthy_food/food.jpg" alt="" key={k}/>
         })}
 
       </span> 
